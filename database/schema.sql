@@ -16,9 +16,9 @@ USE hamburger_db;
 CREATE TABLE hamburgers
 (
 id int NOT NULL AUTO_INCREMENT,
-hamburger_name varchar(255) NOT NULL,
+newHamburgerName varchar(255) NOT NULL,
 devoured BOOL DEFAULT false,
 PRIMARY KEY (id)
 );
 
-INSERT INTO burgers (hamburger_name, devoured) VALUES ("Avacado Burger", FALSE);
+INSERT INTO hamburgers (newHamburgerName, devoured) VALUES ("Avacado Burger", FALSE);

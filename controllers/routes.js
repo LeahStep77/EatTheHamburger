@@ -18,7 +18,7 @@ router.put("/hamburgers/update", function(req, res){
 });
 
 router.post("/hamburgers/create", function(req,res){
-	hamburger.create(req.body.hamburger_name, function(result){
+	hamburger.create(req.body.newHamburgerName, function(result){
 		res.redirect("/");
 	})
 })
